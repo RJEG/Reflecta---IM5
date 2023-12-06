@@ -1,0 +1,231 @@
+/* Possible Highlighting Colors: #99331F , #DA291C (Schweizer Rot), #C71E00 */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color:#fff;
+    font-size: 4vw;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+h3 {
+    color: #C71E00;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(/img/bunkerbetten-bw.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    width:60%;
+    cursor: pointer;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoContainer {
+    width: 30%
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 2vw;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #C71E00;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+
+}
+
+.MainContent {
+    width: 100%;
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+
+.MainContent p{
+    margin: 20px auto;
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+button {
+    width: 250px;
+    padding: 20px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    border: 2px solid #fff;
+    background: transparent;
+    color:#fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  
+}
+
+span {
+    background: #C71E00 ;
+    border: none; 
+    height: 100%;
+    width: 0%;
+    border-radius: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span {
+    width: 100%;
+
+}
+
+button:hover {
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.section-content {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.section-content.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.fade-in {
+    opacity:0;
+    transition: opacity 1s;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
+
+.fade-in-slow {
+    opacity:0;
+    transition: opacity 5s;
+}
+
+.fade-in-slow.visible {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+
+    .logo {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 7vw;
+    }
+
+    .MainContent h1 {
+        margin-top: 20%;
+    }
+
+    .MainContent p {
+        font-size: 3vw;
+    }
+
+    button {
+        width:200px;
+    }
+
+    .navbar ul li a {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 10vw;
+    }
+
+
+    .MainContent p {
+        font-size: 4vw;
+    }
+
+    .navbar ul li a {
+        font-size: 4.5vw;
+    }
+ }
+
+
+
+
