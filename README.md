@@ -1,6 +1,6 @@
 # Reflecta
 
-M5 Projekt - Webseite Interaktiver Film Reflecta
+IM5 Projekt - Webseite Interaktiver Film Reflecta
 
 <b>Projektbeschreibung</b>
 
@@ -14,18 +14,27 @@ Zu Beginn erstellte ich jeweils die Struktur mit HTML und gestaltete im CSS. Daz
 Besonders herausfordernd war für mich die responsive Gestaltung der Webseite. Durch den Einzel-Aufbau der Seiten (jede hat ein eigenes HTML und CSS) war ich zwar flexibler in der Gestaltung, musste aber Veränderungen im Code überall anpassen. Da verliert Mensch schnell die Übersicht. Es hat mich einiges an Zeit und Nerven gekostet, die Darstellung einigermassen responsiv hinzubringen. 
 
 <b>Meine Quellen</b>
-Wenn ich irgendwo nicht weiterkam, war meine erste Anlaufstelle die klassische Google Suche. 
-Dabei landete ich vor allem auf folgenden Webseiten:
+
+Wenn ich irgendwo nicht weiterkam, war meine erste Anlaufstelle die klassische Google Suche. <br> Dabei landete ich vor allem auf folgenden Webseiten:
 
 MDN Web Docs (developer.mozilla.org)
 W3Schools (w3schools.com)
 CSS-Tricks (css-tricks.com)
 
-Für die Java-Script Animationen klickte ich mich durch mehrere YouTube-Tutorials:
+Für die Java-Script Animationen klickte ich mich durch mehrere YouTube-Tutorials.
+Das waren meine Main-Inspirationen:
 
-Chat GPT war ebenfalls eine wertvolle Hilfe, insbesondere wenn es darum ging, spezifische Code-Snippets zu identifizieren und anzupassen.
+https://www.youtube.com/watch?v=T33NN_pPeNI
 
-Bei der Arbeitsweise setzte ich auf einen Live-Server von Visual Studio Code und lud das finale Produkt schliesslich auf eine Domain der FHGR hoch.
+https://www.youtube.com/watch?v=peFOHcbEUig
 
-Fazit
-Das Projekt bereitete mir viel Freude, auch wenn das kontinuierliche Lösen von Problemen zeitweise anstrengend war. Die Entwicklung der JavaScript-Funktionen war herausfordernd und zeitaufwendig. Letztendlich bin ich jedoch zufrieden, da alle meine Interaktionen funktionieren und die Webseite spielerisch genutzt werden kann.
+
+Gearbeitet habe ich mit Visual Studio Code und Änderungen dynamisch per SFTP-Config auf den FHGR-Server hochgeladen.
+Im Inspector-Tool von Google-Chrome habe ich mit dem CSS herumgespielt, bevor ich den Code anschliessend angepasst habe. 
+
+<b>Fazit</b>
+
+
+Manchmal habe ich mir zwar schon gewünscht, ich hätte einfach ein Tutorial befolgen und so sauberer arbeiten können. 
+Trotzdem bin ich froh, alles von Grund auf selbst gecodet zu haben. Das Ausprobieren hat mein Verständnis für HTML und CSS, sowie Basic JS vertieft, einige Kenntnisse erweitert und bereits schon fast wieder Vergessenes zurückgeholt. 
+Ich hoffe dadurch, beim nächsten Mal von Beginn weg sauberer arbeiten zu können und den Responsive-Mode schon von Anfang an ansteuern zu können. 
