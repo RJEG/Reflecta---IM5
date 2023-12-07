@@ -10,15 +10,18 @@ Das Projekt entstand Seite für Seite. Was im Nachhinein nicht unbedingt von Vor
 Zu Beginn erstellte ich jeweils die Struktur mit HTML und gestaltete im CSS. Dazu kamen noch einige Scrolling-Animationen per Java-Script. 
 
 <b>Herausforderungen</b>
-Anfangs erschien mir das Projekt nicht besonders schwierig. Jedoch stellte sich heraus, dass insbesondere JavaScript einige Herausforderungen für mich bereithielt. Das Erstellen der Funktionen, vor allem jene für den Hover-Effekt und den Farbwechsel, erwies sich als komplex, da es viele verschiedene Kombinationsmöglichkeiten gab. Beim Styling traf ich auf Schwierigkeiten, da das Gestalten von Tabellen, die zudem dynamisch mit JavaScript angepasst werden, heutzutage nicht trivial ist.
 
-Meine Quellen
-Für die Recherche und das Lösen spezifischer Probleme nutzte ich verschiedene Internetquellen:
+Besonders herausfordernd war für mich die responsive Gestaltung der Webseite. Durch den Einzel-Aufbau der Seiten (jede hat ein eigenes HTML und CSS) war ich zwar flexibler in der Gestaltung, musste aber Veränderungen im Code überall anpassen. Da verliert Mensch schnell die Übersicht. Es hat mich einiges an Zeit und Nerven gekostet, die Darstellung einigermassen responsiv hinzubringen. 
+
+<b>Meine Quellen</b>
+Wenn ich irgendwo nicht weiterkam, war meine erste Anlaufstelle die klassische Google Suche. 
+Dabei landete ich vor allem auf folgenden Webseiten:
 
 MDN Web Docs (developer.mozilla.org)
 W3Schools (w3schools.com)
 CSS-Tricks (css-tricks.com)
-Zusätzlich suchte ich Rat bei Klassenkameraden, die den Major IM besuchen, und bei Dozenten.
+
+Für die Java-Script Animationen klickte ich mich durch mehrere YouTube-Tutorials:
 
 Chat GPT war ebenfalls eine wertvolle Hilfe, insbesondere wenn es darum ging, spezifische Code-Snippets zu identifizieren und anzupassen.
 
